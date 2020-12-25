@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin-top: -70px;
+}
+
+.search-bar {
+    margin-bottom: 30px;
+    margin-top: -50px;
+    padding: 5px 10px;
+}
