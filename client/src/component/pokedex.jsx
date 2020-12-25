@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Pokecard from './pokecard';
 import Header from '../component/header'
+import Footer from '../component/footer'
 import './pokedex.css'
 
 
@@ -29,6 +30,9 @@ class Pokedex extends Component {
                     img={pokemon.ndex}
                     number={pokemon.numéro}/>
                 ))}
+                <div className='footer'>
+                    <Footer/>
+                </div>
                 </div>
             
             </div>
