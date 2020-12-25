@@ -19,7 +19,7 @@ class Pokedex extends Component {
     render() { 
         return ( 
             <div className='main'>
-                <div>
+                <div className='header'>
                     <Header/>
                 </div>
                 <div className='pokedex'>
