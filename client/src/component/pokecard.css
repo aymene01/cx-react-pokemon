@@ -3,13 +3,13 @@
 
 
 .pokecard {
-    background-color: rgb(82, 80, 80);
+    background-color: #292929;
     color:white;
     margin: 20px;
     width: 150px;
     text-align: center;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .image {
@@ -29,7 +29,7 @@
 }
 
 .pokecard:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     box-shadow: 2px 2px 2px #000000;
     
 }
