@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin-top: -70px;
+    padding-bottom: -40px ;
+}
+
+.search {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+
+
+.input {
+    padding: 3px 5px;
+    margin-right: 5px;
+    background: transparent ;
+    border: 2px white solid;
+    border-radius: 3px;
+    color: white;
+}
+
+.button {
+    padding: 3px 3px 3px 3px;
+    background-color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px white solid;
+    color: white; 
+}

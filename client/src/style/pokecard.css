@@ -28,6 +28,17 @@
     font-family: 'Jura', sans-serif;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+
 .pokecard:hover {
     transform: scale(1.1);
     box-shadow: 2px 2px 2px #000000;

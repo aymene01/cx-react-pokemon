@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Pokecard from './pokecard';
 import Header from '../component/header'
-import './pokedex.css'
+import '../style/pokedex.css'
+
+
 
 
 
@@ -22,14 +24,15 @@ class Pokedex extends Component {
                 <div className='header'>
                     <Header/>
                 </div>
-                <div className='pokedex'>
+                { <div className='pokedex'>
                     {this.state.pokemon.map(pokemon => (
-                    <Pokecard 
+                    <Pokecard
+                    id={pokemon.numéro}
                     name={pokemon.nom}
                     img={pokemon.ndex}
                     number={pokemon.numéro}/>
                 ))}
-                </div>
+                </div> }
             
             </div>
          );
