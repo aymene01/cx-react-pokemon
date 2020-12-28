@@ -16,32 +16,39 @@ function PokemonDetail({match}) {
 
     }
     return (
-        <div>
+        <div className='detail'>
             <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
-            <h2>Identité</h2>
-            <ul>
-                <li>Couleur: {pokemon.couleur}</li>
-                <li>Espece: {pokemon.espece}</li>
-                <li>Type1: {pokemon.type1}</li>
-                <li>Taille: {pokemon.taille}</li>
-                <li>Poids: {pokemon.poids}</li>
-                <li>Forme: {pokemon.forme}</li>
-                <li>NomFR: {pokemon.nom}</li>
-                <li>NomEN: {pokemon.nomen}</li>
-                <li>NomDE: {pokemon.nomde}</li>
-                <li>NomJA: {pokemon.nomja}</li>
-                <li>Nomromaji: {pokemon.nomromaji}</li>
-                <li>NomTM: {pokemon.nomtm}</li>
-            </ul>
-            <h2>Attaque</h2>
-            <ul>
-                <li>Niveau: {pokemon.attaques.niveau}</li>
-                <li>Nom:{pokemon.attaques.nom}</li>
-                <li>Puissance:{pokemon.attaques.puissance}</li>
-                <li>Precision:{pokemon.attaques.precision}</li>
-                <li>Pp:{pokemon.attaques.pp}</li>
-            </ul>
-        </div>
-    )
-}
+            <div className='identité'>
+                 <h1>Identité</h1>
+                 <ul>
+                     <li>{pokemon.nom}</li>
+                     <li>{pokemon.nomen}</li>
+                     <li>{pokemon.nomde}</li>
+                     <li>{pokemon.nomja}</li>
+                     <li>{pokemon.nomromaji}</li>
+                     <li>{pokemon.nomtm}</li>
+                     <li>{pokemon.poids}</li>
+                     <li>{pokemon.taille}</li>
+                     <li>{pokemon.type1}</li>
+                </ul>
+               
+           </div>
+           <div>
+                  <h1>Attaque</h1>
+                 {pokemon.attaques.map(item => (
+                     <ul>
+                         <li>{item.niveau}</li>
+                         <li>{item.nom}</li>
+                         <li>{item.puissance}</li>
+                         <li>{item.precision}</li>
+                     </ul>
+                 ))}
+                  
+
+              
+           </div>
+       </div>
+)}
+
 export default PokemonDetail;
+
