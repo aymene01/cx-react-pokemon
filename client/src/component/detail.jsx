@@ -6,7 +6,10 @@ function PokemonDetail({match}) {
        fetchPokemon()
     }, [])
 
-    const [pokemon, setPokemon] = useState([]);
+    const [pokemon, setPokemon] = useState({
+        attaques: [],
+        pokemon:[]
+    });
 
     const fetchPokemon = async () => {
         const fetchPokemon = await fetch(`http://localhost:4242/pokemon/${match.params.id}`)
@@ -34,18 +37,17 @@ function PokemonDetail({match}) {
                
            </div>
            <div>
-                  <h1>Attaque</h1>
+              <ul>
+              <h1>Attaque</h1>
                  {pokemon.attaques.map(item => (
                      <ul>
-                         <li>{item.niveau}</li>
-                         <li>{item.nom}</li>
-                         <li>{item.puissance}</li>
-                         <li>{item.precision}</li>
+                       <li>{item.niveau}</li>
+                       <li>{item.nom}</li>
+                       <li>{item.puissance}</li>
+                       <li>{item.precision}</li>
                      </ul>
                  ))}
-                  
-
-              
+              </ul>
            </div>
        </div>
 )}
