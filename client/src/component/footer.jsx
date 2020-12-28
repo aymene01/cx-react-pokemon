@@ -4,7 +4,7 @@ import logo1 from '../image/GitHub-Mark (1).png';
 import logo2 from '../image/GitHub-Mark (2).png';
 import footir from '../image/footer (1).jpg';
 import fleche from '../image/fleche.png';
-import './footer.css';
+import '../style/footer.css';
 
 
 
