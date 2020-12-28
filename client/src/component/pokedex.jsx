@@ -3,10 +3,6 @@ import Pokecard from './pokecard';
 import Header from '../component/header'
 import '../style/pokedex.css'
 
-
-
-
-
 class Pokedex extends Component {
     state = { 
         pokemon: []
@@ -24,7 +20,7 @@ class Pokedex extends Component {
                 <div className='header'>
                     <Header/>
                 </div>
-                { <div className='pokedex'>
+                 <div className='pokedex'>
                     {this.state.pokemon.map(pokemon => (
                     <Pokecard
                     id={pokemon.numéro}
@@ -32,7 +28,7 @@ class Pokedex extends Component {
                     img={pokemon.ndex}
                     number={pokemon.numéro}/>
                 ))}
-                </div> }
+                </div> 
             
             </div>
          );

@@ -6,6 +6,7 @@ const pokemons = require('./routes/pokemon')
 const morgan = require('morgan')
 
 
+
 app.use(cors())
 app.use(express.json())
 app.use('/pokemon', pokemons)
