@@ -11,7 +11,7 @@ class App extends Component {
           <Router>
             <div className='App'>
             <Switch>
-                <Route path='/pokemon' exact component={Pokedex}/>
+                <Route path='/' exact component={Pokedex}/>
                 <Route path='/pokemon/:id' component={Detail}/>
             </Switch>
             </div>

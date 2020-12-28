@@ -18,13 +18,21 @@ function PokemonDetail({match}) {
     return (
         <div>
             <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
-            <h2>NOM</h2>
+            <h2>Nom</h2>
             <ul>
                 <li>nom: {pokemon.nom}</li>
                 <li>nomde: {pokemon.nomde}</li>
                 <li>nomja: {pokemon.nomja}</li>
                 <li>nomromaji: {pokemon.nomromaji}</li>
                 <li>nomtm: {pokemon.nomtm}</li>
+            </ul>
+            <h2>Attaque</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
     )
