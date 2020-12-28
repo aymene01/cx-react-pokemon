@@ -10,10 +10,10 @@ class App extends Component {
         return ( 
           <Router>
             <div className='App'>
-              <Switch>
+            <Switch>
                 <Route path='/pokemon' exact component={Pokedex}/>
                 <Route path='/pokemon/:id' component={Detail}/>
-              </Switch>
+            </Switch>
             </div>
           </Router>
            
