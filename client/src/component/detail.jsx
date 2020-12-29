@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import '../style/detail.css';
 
 function PokemonDetail({match}) {
     useEffect(() => {
@@ -38,6 +38,7 @@ function PokemonDetail({match}) {
            </div>
            <div>
               <ul>
+              <div className='attaque'>
               <h1>Attaque</h1>
                  {pokemon.attaques.map(item => (
                      <ul>
@@ -47,6 +48,7 @@ function PokemonDetail({match}) {
                        <li>{item.precision}</li>
                      </ul>
                  ))}
+              </div>
               </ul>
            </div>
        </div>
