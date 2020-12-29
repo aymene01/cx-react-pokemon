@@ -5,12 +5,44 @@ color:white;
     
 }
 
+.imge {
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius: 10px;
+transition: 1s;
+display: block;
+margin-left:auto;
+margin-right: auto;
+}
+
+
+
+
 .identité {
 font-family: 'Jura', sans-serif;
-
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius: 10px;
+transition: 1s;
+display: block;
+margin-right: auto;
 
 }
 .attaque {
 font-family: 'Courgette', cursive;
-
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius: 10px;
+transition: 1s;
+display: block;
+margin-left:auto;
 }

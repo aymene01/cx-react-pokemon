@@ -22,7 +22,7 @@ function PokemonDetail({match}) {
     }
     return (
         <div className='detail'>
-            <img src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
+            <img className='imge'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
             <div className='identité'>
                  <h1>Identité</h1>
                  <ul className='nom'>
