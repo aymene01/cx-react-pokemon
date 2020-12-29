@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../style/detail.css';
+import Footer from '../component/footer';
+import '../style/footer.css';
 
 function PokemonDetail({match}) {
     useEffect(() => {
@@ -57,6 +59,9 @@ function PokemonDetail({match}) {
                  ))}
               </div>
               </ul>
+           </div>
+           <div className='footer'>
+                <Footer/>
            </div>
        </div>
       
