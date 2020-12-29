@@ -34,6 +34,11 @@ display: block;
 margin-right: auto;
 
 }
+.caracteristique{
+font-family: 'Jura', sans-serif;
+
+
+}
 .attaque {
 font-family: 'Courgette', cursive;
 background-color: #292929;
