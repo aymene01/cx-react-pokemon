@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../style/detail.css';
-
+import Footer from '../component/footer'
 
 
 
@@ -25,7 +25,7 @@ const PokemonDetail = ({match}) => {
         <div className='detail-pokemon'>
         <img className='det-img'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
         <h1 className='title-detail'>Identité</h1>
-        <table className="table mb-5 mt-2">
+        <table className="table">
              <thead>
                  <tr>
                  <th >Nom</th>
@@ -57,7 +57,7 @@ const PokemonDetail = ({match}) => {
              </tbody>
         </table>
         <h1 className= 'title-detail'>Attaque</h1>
-        <table className="table mt-2">
+        <table className="table">
         <thead>
                 <th>Niveau</th>
                 <th>Nom</th>
@@ -73,7 +73,11 @@ const PokemonDetail = ({match}) => {
               </tbody>
             ))}
         </table>
+        <div className="footer">
+            <Footer/>
+        </div>
     </div>
+    
     )
     
 }

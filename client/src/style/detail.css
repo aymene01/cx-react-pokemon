@@ -20,9 +20,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-.detail {
-background-color: black;
-color:white;
+.detail-pokemon {
+background-color: #292929;
+
 
     
 }
@@ -41,35 +41,9 @@ margin-right: auto;
 }
 
 
-
-
-.identité {
-font-family: 'Jura', sans-serif;
-background-color: #292929;
+.title-detail{
 color:white;
-margin: 20px;
-width: 250px;
-text-align: center;
-border-radius: 10px;
-transition: 1s;
-display: block;
-margin-right: auto;
-
 }
-.caracteristique{
-font-family: 'Jura', sans-serif;
-
-
-}
-.attaque {
-font-family: 'Courgette', cursive;
-background-color: #292929;
-color:white;
-margin: 20px;
-width: 250px;
-text-align: center;
-border-radius:10px;
-transition: 1s;
-display: block;
-margin-left:auto;
+.table{
+    color:white;
 }
