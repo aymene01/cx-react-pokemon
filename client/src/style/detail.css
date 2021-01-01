@@ -1,3 +1,4 @@
+/* <<<<<<< HEAD
 .title-detail {
     margin-left: 30px;
 }
@@ -12,7 +13,63 @@
     width: 200px;
     height: 200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+}
 
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.detail {
+background-color: black;
+color:white;
+
+    
+}
+
+.imge {
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius: 10px;
+transition: 1s;
+display: block;
+margin-left:auto;
+margin-right: auto;
+}
+
+
+
+
+.identité {
+font-family: 'Jura', sans-serif;
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius: 10px;
+transition: 1s;
+display: block;
+margin-right: auto;
+
+}
+.caracteristique{
+font-family: 'Jura', sans-serif;
+
+
+}
+.attaque {
+font-family: 'Courgette', cursive;
+background-color: #292929;
+color:white;
+margin: 20px;
+width: 250px;
+text-align: center;
+border-radius:10px;
+transition: 1s;
+display: block;
+margin-left:auto;
 }
