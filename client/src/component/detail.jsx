@@ -33,7 +33,7 @@ const PokemonDetail = ({match}) => {
 
         <div className='content'>
         <h1 className='title-detail'>Identité</h1>
-        <table className="table mb-5 mt-2">
+        <table className="table">
              <thead>
                  <tr>
                  <th >Nom</th>
@@ -65,7 +65,7 @@ const PokemonDetail = ({match}) => {
              </tbody>
         </table>
         <h1 className= 'title-detail'>Attaque</h1>
-        <table className="table mt-2">
+        <table className="table">
         <thead>
                 <th>Niveau</th>
                 <th>Nom</th>
@@ -81,9 +81,9 @@ const PokemonDetail = ({match}) => {
               </tbody>
             ))}
         </table>
-        </div>
     </div>
-    )
+</div>
+)
     
 }
 

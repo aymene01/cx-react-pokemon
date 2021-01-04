@@ -29,17 +29,14 @@
     margin-top: -70px;
 }
 
+
 .content {
     width: 1000px;
     margin: auto;
-
-    
 }
-
 
 .back:hover{
     cursor: pointer;
     background-color: transparent;
     color: white;
-    
 }
