@@ -25,7 +25,7 @@ const PokemonDetail = ({match}) => {
 
         <div className='detail-pokemon'>
          <div className='header'>
-             <Link to='/pokemon'>
+             <Link to='/'>
                 <button className='back'>Back</button>
              </Link>
             <img className='det-img'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
