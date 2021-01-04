@@ -37,6 +37,7 @@
 .link:hover{
     cursor: pointer;
     color: grey;
+    text-decoration: none;
 }
 
 
