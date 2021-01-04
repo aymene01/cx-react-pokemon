@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/detail.css';
-
+import Footer from '../component/footer';
 
 
 
@@ -79,8 +79,12 @@ const PokemonDetail = ({match}) => {
                   <td>{attaque.puissance}</td>
                   <td>{attaque.precision}</td>
               </tbody>
+              
             ))}
         </table>
+        <div className='footer'>
+           <Footer/>
+        </div>
     </div>
 </div>
 )
