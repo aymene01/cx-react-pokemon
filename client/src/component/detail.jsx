@@ -82,9 +82,9 @@ const PokemonDetail = ({match}) => {
               
             ))}
         </table>
-        <div className='footer'>
-           <Footer/>
-        </div>
+    </div>
+    <div className='footer'>
+        <Footer/>
     </div>
 </div>
 )
