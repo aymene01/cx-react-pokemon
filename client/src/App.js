@@ -9,7 +9,7 @@ class App extends Component {
     render() { 
         return ( 
           <Router>
-            <div className='App'>
+            <div>
             <Switch>
                 <Route path='/' exact component={Pokedex}/>
                 <Route path='/pokemon/:id' component={Detail}/>

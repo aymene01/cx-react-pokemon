@@ -16,7 +16,7 @@ class Footer extends Component {
             <div className='footer'>
                 <a classeName="fleche" href="#"><img className="retour" alt="" src={fleche} /></a>
                 <img className='footir' src={footir} href="https://github.com/aymene01" />
-                <p className='origin'><a className='about' href="https://www.github.com" target="_blank" >About this</a></p> {/* à changer le lien avec notre lien de repo ou le read me */}
+                <p className='origin'><a className='about' href="https://github.com/aymene01/cx-react-pokemon" target="_blank" >About this</a></p> {/* à changer le lien avec notre lien de repo ou le read me */}
                 <u className='links'>
                     <li className='lists'>
                         <a href="https://github.com/aymene01" target="_blank"><img className="logo" alt="" src={logo} /></a>

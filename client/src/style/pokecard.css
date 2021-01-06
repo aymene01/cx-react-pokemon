@@ -24,6 +24,7 @@
 }
 
 .title {
+    margin-top: 10px;
     font-size: 20px;
     font-family: 'Jura', sans-serif;
 }
@@ -36,6 +37,7 @@
 .link:hover{
     cursor: pointer;
     color: grey;
+    text-decoration: none;
 }
 
 

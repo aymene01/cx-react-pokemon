@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../style/detail.css';
-import Footer from '../component/footer'
+import Footer from '../component/footer';
 
 
 
@@ -23,7 +24,14 @@ const PokemonDetail = ({match}) => {
     return (
 
         <div className='detail-pokemon'>
-        <img className='det-img'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
+         <div className='header'>
+             <Link to='/'>
+                <button className='back'>Back</button>
+             </Link>
+            <img className='det-img'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
+         </div>
+
+        <div className='content'>
         <h1 className='title-detail'>Identité</h1>
         <table className="table">
              <thead>
@@ -52,7 +60,7 @@ const PokemonDetail = ({match}) => {
                  <td>{pokemon.poids}</td>
                  <td>{pokemon.taille}</td>
                  <td>{pokemon.type1}</td>
-                 <td>{pokemon.type2}</td> 
+                 <td>{pokemon.type2}</td>
                  </tr>
              </tbody>
         </table>
@@ -71,62 +79,18 @@ const PokemonDetail = ({match}) => {
                   <td>{attaque.puissance}</td>
                   <td>{attaque.precision}</td>
               </tbody>
+              
             ))}
         </table>
-        <div className="footer">
-            <Footer/>
-        </div>
     </div>
-    
-    )
+    <div className='footer'>
+        <Footer/>
+    </div>
+</div>
+)
     
 }
 
-//         <div className='detail'>
-//             <img className='imge'src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.ndex}.png`} alt=""/>
-//             <div className='identité'>
-//                  <h1>Identité</h1>
-//                  <ul className='nom'>
-//                      <li>NomFR:{pokemon.nom}</li>
-//                      <li>NomEN:{pokemon.nomen}</li>
-//                      <li>NomDE:{pokemon.nomde}</li>
-//                      <li>NomJA:{pokemon.nomja}</li>
-//                      <li>Nomromaji:{pokemon.nomromaji}</li>
-//                      <li>NomTM:{pokemon.nomtm}</li>
-//                  </ul>
-//                  <ul className='caracteristique'>
-//                      <li>Couleur:{pokemon.couleur}</li>
-//                      <li>Espece:{pokemon.espece}</li>
-//                      <li>Poids:{pokemon.poids}</li>
-//                      <li>Taille:{pokemon.taille}</li>
-//                      <li>Type1:{pokemon.type1}</li>
-//                      <li>Forme:{pokemon.forme}</li>
-//                  </ul>    
-                     
-                
-               
-//            </div>
-//            <div>
-//               <ul>
-//               <div className='attaque'>
-//               <h1>Attaque</h1>
-//                  {pokemon.attaques.map(item => (
-//                      <ul className='attaques'>
-//                        <li>Niveau:{item.niveau}</li>
-//                        <li>Nom:{item.nom}</li>
-//                        <li>Puissance:{item.puissance}</li>
-//                        <li>Precision:{item.precision}</li>
-//                      </ul>
-//                  ))}
-//               </div>
-//               </ul>
-//            </div>
-//            <div className='footer'>
-//                 <Footer/>
-//            </div>
-//        </div>
-      
-// )}
 
 
 export default PokemonDetail;
