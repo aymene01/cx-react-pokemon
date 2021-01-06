@@ -13,7 +13,7 @@ npm install
 ## Usage
 
 ```Node js and React
-    express, babel
+express, babel
 ```
 
 ## Contributing
