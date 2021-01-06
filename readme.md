@@ -17,7 +17,7 @@ express, babel.
 ```
 
 ## Contributing
-Contribution by aymene, mehdi and Chahine.
+Contribution by Aymene, Mehdi and Chahine.
 
 ## License
 Efrei paris project
