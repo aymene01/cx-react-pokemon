@@ -4,10 +4,10 @@ This is our pokereact project.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager react (npm i) for node_modules
 
 ```bash
-pip install foobar
+npm install
 ```
 
 ## Usage
