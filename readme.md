@@ -13,11 +13,11 @@ npm install
 ## Usage
 
 ```Node js and React
-express, babel
+express, babel.
 ```
 
 ## Contributing
-Contribution by aymene and mehdi
+Contribution by aymene, mehdi and Chahine.
 
 ## License
 Efrei paris project
